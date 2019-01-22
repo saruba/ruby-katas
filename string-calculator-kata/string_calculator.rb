@@ -1,10 +1,12 @@
 class StringCalculator
-    def add(string_numbers)
-        return 0 if string_numbers == ''
-
-        numbers = string_numbers.split(',').map {|number| number.to_i}
-        sum = 0
-        numbers.each {|number| sum = sum + number}
-        return sum
+    class << self
+        def add(string_numbers)
+            numbers = to_numbers(string_numbers)
+            numbers.inject(0) {|sum, number| sum + number }
+        end
+        private
+        def to_numbers(string_numbers)
+            string_numbers.split(',').map {|number| number.to_i}
+        end
     end
 end
