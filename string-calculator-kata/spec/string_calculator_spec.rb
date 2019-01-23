@@ -29,4 +29,11 @@ describe 'String Calculator' do
         # Assert
         expect(result).to eq(15)
     end
+    it 'returns 190 if string is "100,20,45,25"' do
+        # Arrange
+        # Act
+        result = StringCalculator.add('100,20,45,25')
+        # Assert
+        expect(result).to eq(190)
+    end
 end
