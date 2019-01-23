@@ -1,4 +1,4 @@
-##1st KATA: String Calculator Kata (via [Roy Osherove](http://osherove.com/tdd-kata-1/))
+## 1st KATA: String Calculator Kata (via [Roy Osherove](http://osherove.com/tdd-kata-1/))
 
 * Create a simple String calculator with a method int Add(string numbers). The method can take 0, 1 or 2 numbers, and will return their sum (for an empty string it will return 0). For example "" or "1" or "1,2"
   * Start with the simplest test case of an empty string and move to 1 and two numbers
@@ -15,12 +15,13 @@
   * if there are multiple negatives, show all of them in the exception message
 
 
-##2nd KATA: The FizzBuzz Kata
+## 2nd KATA: The FizzBuzz Kata
   - Write a program that prints the numbers from 1 to 100. But for multiples of three print "Fizz"
     instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both
     three and five print "FizzBuzz".
 
-### Including new implementation to The FizzBuzz Kata
+#### Including new implementation to The FizzBuzz Kata
+
   - Added a different implementation for FizzBuzz using Reactive extensions.
   - The changes are described at: http://blog.drorhelper.com/2015/02/fizzbuzz-tdd-kata-using-reactive.html
   - Pull Request by: https://github.com/dhelper (manually merged by @garora)
@@ -40,7 +41,7 @@
   - Create test to verify number and return result Fizz or Buzz or FizzBuzz per above criteria
 
 
-##3rd KATA: Game of Life :
+## 3rd KATA: Game of Life :
 
   Your task is to write a program to calculate the next
   generation of Conway's game of life, given any starting
@@ -75,7 +76,7 @@
   ........
 
 
-##4th KATA: Poker Hands
+## 4th KATA: Poker Hands
 
   A poker deck contains 52 cards - each card has a suit which
   is one of clubs, diamonds, hearts, or spades
@@ -147,7 +148,7 @@
   Input: Black: 2H 3D 5S 9C KD White: 2D 3H 5C 9S KH
   Output: Tie
 
-##5th KATA: Reversi :
+## 5th KATA: Reversi :
 
   Reversi is a board game for two players. The board contains
   8x8 squares. The players place Black or White counters onto
@@ -181,7 +182,7 @@
   ........
   B
 
-##6th KATA: Yehtzee :
+## 6th KATA: Yehtzee :
 
   The game of yahtzee is a simple dice game. Each player rolls five
   six-sided dice. They can re-roll some or all of the dice up to three
@@ -211,8 +212,7 @@
   category for a given roll.
 
 
- ####Yahzee Categories and Scoring Rules
-     ===================================
+ #### Yahzee Categories and Scoring Rules
 
   Chance:
     The player scores the sum of all dice, no matter what they read.
